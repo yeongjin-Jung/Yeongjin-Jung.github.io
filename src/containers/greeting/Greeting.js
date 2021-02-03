@@ -3,7 +3,7 @@ import emoji from "react-easy-emoji";
 import { Fade } from "react-reveal";
 import "./Greeting.css";
 
-import profileImg from "../../assets/profile/profile.jpg";
+import profileImg from "../../assets/profile/Profile.jpg";
 import { greeting } from "../../portfolio";
 import Button from "../../components/button/Button";
 

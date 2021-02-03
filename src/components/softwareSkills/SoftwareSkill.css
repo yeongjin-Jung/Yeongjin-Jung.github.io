@@ -1,0 +1,28 @@
+.dev-icons {
+  padding-left: 0;
+  list-style: none;
+  font-size: 5rem;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  text-align: center;
+}
+.software__skills__item {
+  display: inline-block;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.software__skills__item > i {
+  color: #868e96;
+}
+
+.software__skills__item > i:hover {
+  color: var(--color-deep-orange);
+}
+.software__skills__item > p {
+  color: #868e96;
+  font-size: var(--font-regular);
+}
+.software__skills__item > i:hover ~ p {
+  color: var(--color-deep-orange);
+}

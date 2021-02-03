@@ -35,6 +35,10 @@
 .greeting__main > * {
   flex: 1;
 }
+
+.greeting__text {
+  font-size: var(--font-large);
+}
 .greeting__text__container {
   padding: 30px;
   padding-left: 80px;
@@ -46,8 +50,9 @@
 
 .greeting__text__subtitle {
   color: #000000 !important;
-  font-size: 30px;
+  font-size: var(--font-regular);
   line-height: 40px;
+  font-weight: 600;
 }
 
 .greeting__text__button {

@@ -25,6 +25,32 @@ const skills = {
       "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
     ),
   ],
+  softwareSkills: [
+    {
+      skillName: "html-5",
+      fontAwesomeClassname: "fab fa-html5",
+    },
+    {
+      skillName: "css3",
+      fontAwesomeClassname: "fab fa-css3-alt",
+    },
+    {
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js",
+    },
+    {
+      skillName: "reactjs",
+      fontAwesomeClassname: "fab fa-react",
+    },
+    {
+      skillName: "vuejs",
+      fontAwesomeClassname: "fab fa-vuejs",
+    },
+    {
+      skillName: "npm",
+      fontAwesomeClassname: "fab fa-npm",
+    },
+  ],
   display: true,
 };
 
