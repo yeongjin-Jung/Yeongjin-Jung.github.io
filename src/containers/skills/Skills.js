@@ -1,7 +1,7 @@
 import React from "react";
 import { Fade } from "react-reveal";
 import { skills } from "../../portfolio";
-import codeImg from "../../assets/code2.gif";
+import codeImg from "../../assets/coding.gif";
 import SoftwareSkills from "../../components/softwareSkills/SoftwareSkill";
 
 import "./Skills.css";

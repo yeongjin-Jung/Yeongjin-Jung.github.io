@@ -54,4 +54,31 @@ const skills = {
   display: true,
 };
 
-export { greeting, skills };
+const skillsProgress = {
+  title: "Proficiency",
+
+  skills: [
+    {
+      skillName: "Html",
+      percentage: "80%",
+    },
+    {
+      skillName: "CSS",
+      percentage: "80%",
+    },
+    {
+      skillName: "JavaScript",
+      percentage: "70%",
+    },
+    {
+      skillName: "Vue",
+      percentage: "60%",
+    },
+    {
+      skillName: "React",
+      percentage: "80%",
+    },
+  ],
+};
+
+export { greeting, skills, skillsProgress };

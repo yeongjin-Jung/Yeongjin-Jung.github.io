@@ -1,0 +1,63 @@
+.skillsProgress {
+  display: flex;
+}
+
+.skillsProgress > * {
+  flex: 1;
+  margin-bottom: 30px;
+}
+
+.progress__container {
+  padding: 80px;
+}
+
+.meter {
+  height: 20px;
+  position: relative;
+  background: rgb(243, 239, 239);
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+}
+
+.meter > span {
+  display: block;
+  height: 100%;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+  background-color: #ffd980;
+  position: relative;
+  overflow: hidden;
+}
+.skill__text {
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill p {
+  text-align: left;
+}
+
+.progressImg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progressImg > img {
+  max-width: 100%;
+  height: auto;
+  transform: scale(1.9);
+}
+
+@media screen and (max-width: 768px) {
+  .skillsProgress {
+    flex-direction: column;
+  }
+
+  .progressImg > img {
+    transform: scale(1.2);
+  }
+}
