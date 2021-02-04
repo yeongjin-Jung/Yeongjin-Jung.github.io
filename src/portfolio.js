@@ -81,4 +81,24 @@ const skillsProgress = {
   ],
 };
 
-export { greeting, skills, skillsProgress };
+// 아카데미들
+
+const academy = {
+  title: "Education",
+  academys: [
+    {
+      academyName: "삼성청년 소프트웨어 아카데미",
+      logo: require("./assets/ssafy_logo.png").default,
+      duration: "2020.01 - 2020.12",
+      desc: "웹개발 과정",
+    },
+    {
+      academyName: "비트교육센터",
+      logo: require("./assets/bit_logo.jpg").default,
+      duration: "2020.01 - 2020.12",
+      desc: "딥러닝 기반 영상 인식 과정",
+    },
+  ],
+};
+
+export { greeting, skills, skillsProgress, academy };

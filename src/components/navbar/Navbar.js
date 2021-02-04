@@ -1,12 +1,11 @@
 import React from "react";
-import Headroom from "react-headroom";
 import "./Navbar.css";
 
 export default function Navbar() {
   return (
     <nav id="navbar">
       <div className="navbar__logo">
-        <a className="navbar__logo__title" href="#">
+        <a className="navbar__logo__title" href="#home">
           <b style={{ color: "orange" }}>Yeong</b>&nbsp;Jin
         </a>
       </div>

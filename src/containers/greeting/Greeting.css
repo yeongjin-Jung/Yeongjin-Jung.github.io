@@ -37,7 +37,9 @@
 }
 
 .greeting__text {
+  width: 80%;
   font-size: var(--font-large);
+  word-break: keep-all;
 }
 .greeting__text__container {
   padding: 30px;

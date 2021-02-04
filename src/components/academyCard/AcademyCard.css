@@ -1,0 +1,77 @@
+.academy__card {
+  display: flex;
+  flex-direction: row;
+  padding: 16px 0;
+  align-items: center;
+  transition: all var(--anmation-duration) ease;
+}
+
+.academy__card__left {
+  display: flex;
+  align-items: center;
+  width: 150px;
+  height: 150px;
+}
+
+.academy__card:hover + .academy__card__border {
+  border-color: var(--color-deep-orange);
+  width: 100%;
+  -webkit-transition: width 0.6s ease-in-out;
+  -moz-transition: width 0.6s ease-in-out;
+  -o-transition: width 0.6s ease-in-out;
+  transition: width 0.6s ease-in-out;
+}
+.academy__card__left > img {
+  max-width: 100%;
+}
+
+.academy__card_right {
+  text-align: left;
+  padding-left: 3rem;
+}
+
+.academy__Name {
+  font-size: var(--font-medium);
+}
+
+.academy__desc {
+  font-size: var(--font-regular);
+}
+
+.academy__duration {
+  font-size: var(--font-small);
+}
+
+.academy__card__border {
+  height: 20px;
+  width: 80%;
+  border-top: 3.5px solid rgba(211, 211, 211, 0.397);
+  margin-bottom: 10px;
+  -webkit-transition: width 0.6s ease-in-out;
+  -moz-transition: width 0.6s ease-in-out;
+  -o-transition: width 0.6s ease-in-out;
+  transition: width 0.6s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+  .academy__card__left {
+    width: 100px;
+    height: 100px;
+  }
+
+  .academy__card_right {
+    padding-left: 1.5rem;
+  }
+
+  .academy__Name {
+    font-size: var(--font-small);
+  }
+
+  .academy__desc {
+    font-size: var(--font-micro);
+  }
+
+  .academy__duration {
+    font-size: var(--font-nano);
+  }
+}
