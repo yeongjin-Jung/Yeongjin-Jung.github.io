@@ -1,6 +1,6 @@
-import React, { createRef, useContext } from "react";
+import React, { createRef } from "react";
 import "./AcademyCard.css";
-import { Fade, Slide, Zoom } from "react-reveal";
+import { Fade, Slide } from "react-reveal";
 
 export default function AcademyCard({ academy }) {
   const imgRef = createRef();

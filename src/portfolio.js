@@ -81,8 +81,7 @@ const skillsProgress = {
   ],
 };
 
-// 아카데미들
-
+// 아카데미
 const academy = {
   title: "Education",
   academys: [
@@ -101,4 +100,45 @@ const academy = {
   ],
 };
 
-export { greeting, skills, skillsProgress, academy };
+// 프로젝트
+
+const myProject = {
+  title: "Projects",
+  category: ["All", "Vue", "React"],
+  projects: [
+    {
+      projectName: "JMT(Join Meeting & Tying)",
+      logo: require("./assets/images/project/JMT.jpg").default,
+      git: "https://github.com/yeongjin-Jung/JoinMeeting-Typing-SSAFY-",
+      desc:
+        "Video conferencing service that records meetings based on markdown",
+      tag: "Vue",
+    },
+    {
+      projectName: "AIGARET(AI Game Rehabilitation Trainer)",
+      logo: require("./assets/images/project/Aigaret.png").default,
+      git: "https://github.com/yeongjin-Jung/AIGARET-SSAFY",
+      desc:
+        "신체 움직임을 통해 조작할 수 있는 게임으로 집에서 가볍게 즐길 수 있는 재활 트레이닝 서비스",
+      tag: "Vue",
+    },
+    {
+      projectName: "암기의 정석",
+      logo: require("./assets/images/project/암기의정석.png").default,
+      git: "https://github.com/yeongjin-Jung/MemoryTraining-SSAFY-",
+      desc:
+        "자신만의 암기 카드를 만들고 공유할 수 있는 종합 압기 플랫폼 서비스",
+      tag: "React",
+    },
+    {
+      projectName: "포트폴리오 클론 코딩",
+      logo: require("./assets/images/project/Portfolio.png").default,
+      git: "https://github.com/yeongjin-Jung/portfolio",
+      desc:
+        "HTML, CSS, JavaScript를 공부하기 위해 클론 코딩으로 만든 포트폴리오 사이트",
+      tag: "JavaScript",
+    },
+  ],
+};
+
+export { greeting, skills, skillsProgress, academy, myProject };

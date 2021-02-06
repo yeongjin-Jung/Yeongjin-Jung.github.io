@@ -1,0 +1,61 @@
+.projects__main {
+  padding: 30px;
+}
+
+.projects__categories {
+  display: flex;
+  justify-content: center;
+}
+
+.category__btn {
+  background-color: var(--color-orange);
+  color: white;
+  font-size: var(--font-medium);
+  cursor: pointer;
+  transition: all var(--animation-duration) ease-in-out;
+  margin: 0px 10px;
+  padding: 10px 45px;
+  font-weight: 500;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  border-radius: 8px;
+}
+.category__btn > p {
+  margin: 0;
+}
+
+.category__btn:hover {
+  background-color: #ffffff;
+  color: var(--color-deep-orange);
+  transition: all var(--animation-duration) ease;
+  transform: translateY(-3px);
+}
+
+.category__btn__name {
+  display: block;
+}
+
+.category__btn__cnt {
+  position: absolute;
+  top: 5px;
+  right: 8px;
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background-color: rgb(36, 156, 255);
+  border-radius: 50%;
+  line-height: 24px;
+  font-size: var(--font-regular);
+  transition: all var(--animation-duration);
+  color: white;
+}
+
+.projects__cardList {
+  padding: 3rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}

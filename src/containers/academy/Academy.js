@@ -9,8 +9,8 @@ export default function Academy() {
       <div className="academy__container">
         <h1 className="academy__text">{academy.title}</h1>
         <div className="academy__card__container">
-          {academy.academys.map((academy) => {
-            return <AcademyCard academy={academy}></AcademyCard>;
+          {academy.academys.map((academy, i) => {
+            return <AcademyCard academy={academy} key={i}></AcademyCard>;
           })}
         </div>
       </div>

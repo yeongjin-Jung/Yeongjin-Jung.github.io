@@ -4,7 +4,7 @@
   border-radius: 4px;
   font-size: var(--font-regular);
   cursor: pointer;
-  transition: all var(--anmation-duration) ease-in-out;
+  transition: all var(--animation-duration) ease-in-out;
   margin: 0px 10px;
   padding: 5px 10px;
   font-weight: 500;
@@ -13,7 +13,7 @@
 .main-button:hover {
   background-color: #ffffff;
   color: var(--color-deep-orange);
-  transition: all var(--anmation-duration) ease;
+  transition: all var(--animation-duration) ease;
   transform: translateY(-3px);
 }
 

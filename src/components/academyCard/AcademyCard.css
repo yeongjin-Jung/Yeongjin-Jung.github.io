@@ -3,7 +3,7 @@
   flex-direction: row;
   padding: 16px 0;
   align-items: center;
-  transition: all var(--anmation-duration) ease;
+  transition: all var(--animation-duration) ease;
 }
 
 .academy__card__left {

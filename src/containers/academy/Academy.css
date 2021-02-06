@@ -3,9 +3,14 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 60px;
   margin-bottom: 30px;
 }
 
 .academy__container {
   width: 85%;
+}
+
+.academy__text {
+  text-align: left;
 }
