@@ -17,9 +17,9 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  width: 540px;
-  height: 500px;
-  margin: 0 60px;
+  width: 480px;
+  height: 420px;
+  margin: 0 30px;
 }
 
 .projectCard__link.invisible {
@@ -54,13 +54,14 @@
 }
 
 .project__name {
-  font-size: var(--font-large);
+  font-size: var(--font-medium);
   font-weight: 700;
 }
 
 .project__info p {
   color: var(--color-orange);
   font-weight: 500;
+  font-size: var(--font-regular);
 }
 
 .project__info p::after {

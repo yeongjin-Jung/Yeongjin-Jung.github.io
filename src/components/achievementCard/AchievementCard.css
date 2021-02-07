@@ -1,0 +1,48 @@
+.achievementCard__container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 280px;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 40px;
+}
+
+.achievementCard__image {
+  width: 100%;
+  height: auto;
+}
+
+.achievementCard__image__div {
+  position: relative;
+  transform: scale(1);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transition: all 0.3s ease-in-out; /* 부드러운 모션을 위해 추가*/
+}
+
+.achievementCard__image__div:hover {
+  transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
+
+.achievementCard__image:hover {
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 20px 30px -10px;
+}
+
+.achievementCard__title {
+  word-break: keep-all;
+}
+
+@media screen and (max-width: 768px) {
+  .achievementCard__container {
+    width: 200px;
+    height: auto;
+    margin: 30px 20px;
+  }
+}

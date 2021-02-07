@@ -2,6 +2,7 @@ import React from "react";
 
 import Navbar from "../components/navbar/Navbar";
 import Academy from "./academy/Academy";
+import Achievement from "./achievements/Achievement";
 import Greeting from "./greeting/Greeting";
 import Projects from "./projects/Projects";
 import Skills from "./skills/Skills";
@@ -16,6 +17,7 @@ export default function Main() {
       <SkillsProgress></SkillsProgress>
       <Academy></Academy>
       <Projects></Projects>
+      <Achievement></Achievement>
     </div>
   );
 }

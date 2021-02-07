@@ -141,4 +141,44 @@ const myProject = {
   ],
 };
 
-export { greeting, skills, skillsProgress, academy, myProject };
+const achievements = {
+  title: "Achievements",
+
+  achievementList: [
+    {
+      title: "삼성청년소프트웨어 아카데미 - 이수증",
+      image: require("./assets/images/achievements/싸피__교육이수증.jpg")
+        .default,
+    },
+    {
+      title: "삼성청년소프트웨어 아카데미 - 1학기프로젝트 우수상",
+      image: require("./assets/images/achievements/1학기프로젝트__우수상.jpg")
+        .default,
+    },
+    {
+      title: "삼성청년소프트웨어 아카데미 - 공통프로젝트 우수상",
+      image: require("./assets/images/achievements/공통프로젝트__우수상.jpg")
+        .default,
+    },
+    {
+      title: "삼성청년소프트웨어 아카데미 - 특화프로젝트 우수상",
+      image: require("./assets/images/achievements/특화프로젝트__우수상.jpg")
+        .default,
+    },
+    {
+      title: "삼성청년소프트웨어 아카데미 - UCC우수상",
+      image: require("./assets/images/achievements/UCC우수상.jpg").default,
+    },
+    {
+      title: "비트교육 수료증",
+      image: require("./assets/images/achievements/비트교육__수료증.jpg")
+        .default,
+    },
+    {
+      title: "학술제 금상",
+      image: require("./assets/images/achievements/학술제__금상.jpg").default,
+    },
+  ],
+};
+
+export { greeting, skills, skillsProgress, academy, myProject, achievements };
