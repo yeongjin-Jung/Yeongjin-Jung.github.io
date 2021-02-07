@@ -1,0 +1,30 @@
+#blog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#blog > * {
+  flex: 1;
+}
+
+.blog__container {
+  text-align: left;
+  padding: 5rem;
+}
+
+.blog__cardList {
+  margin-top: 3rem;
+}
+
+.blog__text {
+  margin-top: 0;
+}
+
+@media screen and (max-width: 768px) {
+  #blog {
+    flex-direction: column;
+  }
+  .blog__container {
+    padding: 3rem;
+  }
+}

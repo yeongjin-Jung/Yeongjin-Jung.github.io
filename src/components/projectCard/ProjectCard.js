@@ -12,7 +12,7 @@ export default function ProjectCard({ project }) {
             <img
               className="project__img"
               src={project.logo}
-              alt="project picture"
+              alt="project img"
             ></img>
             <div className="project__info">
               {/* <p className="project__Name">{project.projectName}</p> */}

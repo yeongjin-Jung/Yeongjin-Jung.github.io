@@ -94,7 +94,7 @@ const academy = {
     {
       academyName: "비트교육센터",
       logo: require("./assets/bit_logo.jpg").default,
-      duration: "2020.01 - 2020.12",
+      duration: "2019.04 - 2019.12",
       desc: "딥러닝 기반 영상 인식 과정",
     },
   ],
@@ -141,9 +141,10 @@ const myProject = {
   ],
 };
 
+// 상장 및 이수증
 const achievements = {
   title: "Achievements",
-
+  subtitle: "현재까지 받은 수상 내역입니다.",
   achievementList: [
     {
       title: "삼성청년소프트웨어 아카데미 - 이수증",
@@ -181,4 +182,39 @@ const achievements = {
   ],
 };
 
-export { greeting, skills, skillsProgress, academy, myProject, achievements };
+// 블로그
+const blogs = {
+  title: "Blogs",
+  subtitle: "현재 운영중인 블로그입니다.",
+  blog: [
+    {
+      url: "https://yeongjin13.tistory.com/",
+      title: "기록하는 개발자 영진's Blog",
+      desc: "공부한 내용을 기록한 공부 블로그 입니다.",
+    },
+  ],
+  image: require("./assets/images/blogging.gif").default,
+};
+
+const contactInfo = {
+  title: emoji("Contact Me ☎️"),
+  subtitle:
+    "Discuss a project or just want to say hi? My Inbox is open for all.",
+  number: "010-9461-3084",
+  emailAddress: "yeongjin13@gmail.com",
+};
+
+const illustration = {
+  animated: true, // set to false to use static SVG
+};
+export {
+  greeting,
+  skills,
+  skillsProgress,
+  academy,
+  myProject,
+  achievements,
+  blogs,
+  contactInfo,
+  illustration,
+};
