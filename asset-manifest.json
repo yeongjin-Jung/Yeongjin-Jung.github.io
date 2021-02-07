@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.d0ad90f6.chunk.css",
-    "main.js": "/static/js/main.8f10216f.chunk.js",
-    "main.js.map": "/static/js/main.8f10216f.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.80e16865.js",
-    "runtime-main.js.map": "/static/js/runtime-main.80e16865.js.map",
-    "static/js/2.16969db2.chunk.js": "/static/js/2.16969db2.chunk.js",
-    "static/js/2.16969db2.chunk.js.map": "/static/js/2.16969db2.chunk.js.map",
-    "static/js/3.6e2d2d8a.chunk.js": "/static/js/3.6e2d2d8a.chunk.js",
-    "static/js/3.6e2d2d8a.chunk.js.map": "/static/js/3.6e2d2d8a.chunk.js.map",
+    "main.css": "/static/css/main.d55bf0eb.chunk.css",
+    "main.js": "/static/js/main.2d4105af.chunk.js",
+    "main.js.map": "/static/js/main.2d4105af.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.39165d08.js",
+    "runtime-main.js.map": "/static/js/runtime-main.39165d08.js.map",
+    "static/js/2.ddad0158.chunk.js": "/static/js/2.ddad0158.chunk.js",
+    "static/js/2.ddad0158.chunk.js.map": "/static/js/2.ddad0158.chunk.js.map",
+    "static/js/3.908e5782.chunk.js": "/static/js/3.908e5782.chunk.js",
+    "static/js/3.908e5782.chunk.js.map": "/static/js/3.908e5782.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.d0ad90f6.chunk.css.map": "/static/css/main.d0ad90f6.chunk.css.map",
-    "static/js/2.16969db2.chunk.js.LICENSE.txt": "/static/js/2.16969db2.chunk.js.LICENSE.txt",
+    "static/css/main.d55bf0eb.chunk.css.map": "/static/css/main.d55bf0eb.chunk.css.map",
+    "static/js/2.ddad0158.chunk.js.LICENSE.txt": "/static/js/2.ddad0158.chunk.js.LICENSE.txt",
     "static/media/1학기프로젝트__우수상.jpg": "/static/media/1학기프로젝트__우수상.2db3855f.jpg",
     "static/media/Aigaret.png": "/static/media/Aigaret.850fa49e.png",
     "static/media/Greeting.css": "/static/media/GreetingBackground.effbbb5c.jpeg",
@@ -20,7 +20,9 @@
     "static/media/Profile.ea434239.jpg": "/static/media/Profile.ea434239.jpg",
     "static/media/UCC우수상.jpg": "/static/media/UCC우수상.c503d6f7.jpg",
     "static/media/bit_logo.jpg": "/static/media/bit_logo.60e2bb91.jpg",
+    "static/media/blogging.gif": "/static/media/blogging.ab1533ea.gif",
     "static/media/coding.18f0fc82.gif": "/static/media/coding.18f0fc82.gif",
+    "static/media/contactMailDark.svg": "/static/media/contactMailDark.1db650d3.svg",
     "static/media/frontend.a4ad838c.gif": "/static/media/frontend.a4ad838c.gif",
     "static/media/공통프로젝트__우수상.jpg": "/static/media/공통프로젝트__우수상.42404b0a.jpg",
     "static/media/비트교육__수료증.jpg": "/static/media/비트교육__수료증.71025cea.jpg",
@@ -30,9 +32,9 @@
     "static/media/학술제__금상.jpg": "/static/media/학술제__금상.d32e20ce.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.80e16865.js",
-    "static/js/2.16969db2.chunk.js",
-    "static/css/main.d0ad90f6.chunk.css",
-    "static/js/main.8f10216f.chunk.js"
+    "static/js/runtime-main.39165d08.js",
+    "static/js/2.ddad0158.chunk.js",
+    "static/css/main.d55bf0eb.chunk.css",
+    "static/js/main.2d4105af.chunk.js"
   ]
 }
