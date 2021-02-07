@@ -8,13 +8,14 @@ export default function ProjectCard({ project }) {
       <Fade bottom duraction={1000} distance="20px">
         <div className="projectCard">
           <a className="projectCard__link" href={project.git}>
+            <p className="project__name">{project.projectName}</p>
             <img
               className="project__img"
               src={project.logo}
               alt="project picture"
             ></img>
             <div className="project__info">
-              <h2 className="project__Name">{project.projectName}</h2>
+              {/* <p className="project__Name">{project.projectName}</p> */}
               <p className="project__desc">{project.desc}</p>
             </div>
           </a>

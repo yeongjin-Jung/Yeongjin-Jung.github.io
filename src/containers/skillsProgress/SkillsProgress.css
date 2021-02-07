@@ -68,6 +68,10 @@
     height: 300px;
   }
 
+  .meter {
+    height: 15px;
+  }
+
   .progressImg > img {
     padding-top: 50px !important;
     height: 100%;

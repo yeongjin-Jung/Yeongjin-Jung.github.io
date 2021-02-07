@@ -1,5 +1,4 @@
-import React, { useState, useEffect } from "react";
-
+import React, { useState } from "react";
 import "./Projects.css";
 import { myProject } from "../../portfolio";
 import ProjectCard from "../../components/projectCard/ProjectCard";
@@ -10,15 +9,15 @@ export default function Projects() {
   const result = new Array(myProject.category.length);
   result.fill(0);
   result[0] = arr.length;
-  {
-    myProject.projects.map((project, i) => {
-      if (project.tag === "Vue") {
-        result[1]++;
-      } else if (project.tag === "React") {
-        result[2]++;
-      }
-    });
-  }
+
+  myProject.projects.map((project, i) => {
+    if (project.tag === "Vue") {
+      result[1]++;
+    } else if (project.tag === "React") {
+      result[2]++;
+    }
+    return result[i];
+  });
 
   const [categoryValue, setCategoryValue] = useState("All");
   const onChangeCategory = (e) => {
@@ -38,7 +37,6 @@ export default function Projects() {
               onClick={() => onChangeCategory({ category })}
             >
               <p className="category__btn__name">{category}</p>
-
               <span className="category__btn__cnt">{result[i]}</span>
             </button>
           );
@@ -47,13 +45,17 @@ export default function Projects() {
 
       <div className="projects__cardList">
         {myProject.projects.map((project, i) => {
-          if (categoryValue == "All") {
+          if (categoryValue === "All") {
             return <ProjectCard project={project} key={i}></ProjectCard>;
-          } else if (categoryValue == "Vue" && project.tag == categoryValue) {
+          } else if (categoryValue === "Vue" && project.tag === categoryValue) {
             return <ProjectCard project={project} key={i}></ProjectCard>;
-          } else if (categoryValue == "React" && project.tag == categoryValue) {
+          } else if (
+            categoryValue === "React" &&
+            project.tag === categoryValue
+          ) {
             return <ProjectCard project={project} key={i}></ProjectCard>;
           }
+          return null;
         })}
       </div>
     </div>
